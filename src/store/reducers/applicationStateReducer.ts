@@ -1,6 +1,7 @@
 const INITIAL_STATE = {
 	fruit: "fruit?",
 };
+// 
 
 export const applicationStateReducer = (state = INITIAL_STATE, action: any) => {
 	switch (action.type) {
